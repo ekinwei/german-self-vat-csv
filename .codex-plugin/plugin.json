@@ -1,0 +1,21 @@
+﻿{
+    "name":  "german-self-vat-csv",
+    "version":  "0.1.0",
+    "description":  "Adjust Amazon VAT CSV files to a target German seller-paid VAT amount.",
+    "author":  {
+                   "name":  "Local developer"
+               },
+    "skills":  "./skills/",
+    "interface":  {
+                      "displayName":  "VAT缴税",
+                      "shortDescription":  "按目标金额调整德国自缴 VAT 的 Amazon CSV。",
+                      "longDescription":  "筛选 Amazon VAT CSV 中德国本土 REGULAR SELLER 自缴税销售行，并删除部分行，让保留的自缴 VAT 接近指定欧元金额。输出文件名为 GG-原文件名。",
+                      "developerName":  "Local developer",
+                      "category":  "Productivity",
+                      "capabilities":  [
+                                           "csv-processing",
+                                           "tax-data-adjustment"
+                                       ],
+                      "defaultPrompt":  "使用 VAT缴税，把 Amazon VAT CSV 调整到指定自缴税金额。"
+                  }
+}
